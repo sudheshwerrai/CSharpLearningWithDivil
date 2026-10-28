@@ -1,0 +1,196 @@
+﻿namespace MyNamespace
+{
+    class MyClass
+    {
+        static void Main()
+        {
+            
+        }
+    }
+
+}
+ 
+ 
+ munjewardinesh@gmail.com
+ Dinesh Full Stack Dot Net Training:-
+ 
+ C# Trainng:-
+ 
+ Year 2002 C# 1.x .NET Framework 1.x VS 2002
+ Year 2026 C# 14.x .NET 10 VS 2026
+ 
+ VS - Visual Studio
+ 
+ Year 2002 .NET Framework 1.x to 4.x - Windows
+ Year 2016 .NET Core 1.x to 3.x - Windows,Mac,Linux
+ Year 2020 .NET 5.x - Windows,Mac,Linux
+ 
+ .NET = .Net Framework + .NET Core
+ 
+ Year 2020 Nov .NET 5.0 - STS
+ Year 2021 Nov .NET 6.0 - LTS
+ Year 2022 Nov .NET 7.0 - STS
+ Year 2023 Nov .NET 8.0 - LTS
+ Year 2024 Nov .NET 9.0 - STS
+ Year 2025 Nov .NET 10.0- LTS
+ Year 2026 Nov .NET 11.0- STS upcomming Current
+ 
+ STS - Standard Term Support - 18months
+ LTS - Long Term Support     - 36months
+ 
+ Web Application
+ 
+ Year 2002 - Asp.NET (Home.aspx<%%>,Home.aspx.cs) - Windows 
+ <asp:Button id="btnSubmit" Text="Submit" runat="server"/>
+ 
+ Year 2009 - ASP.NET MVC - Windows
+ (StudentController.cs,Student.cs,Student.cshtml)
+ HMTL helper
+ 
+ Year 2016 - ASP.NET Core MVC - Windows,Mac,Linux
+ (StudentController.cs,Student.cs,Student.cshtml)
+ Tag Helper
+ 
+ Year 2010 - Angular js
+ 
+ OS                  - Windows - Microsoft
+ Programing Language - C#      - Microsoft
+ Library             - .NET    - Microsoft
+ IDE                 - VS      - Microsoft
+ Template            - Console - Microsoft
+ DB                  - SQL Server - Microsoft
+ Connector           - Ado.NET/EF - Microsoft
+ Host                - Windows Server - Microsoft
+ Version Control     - Git hub         - Microsoft   
+ 
+ 
+ C# - Templates
+ 1-Console Application - We will use this tempalte to learn C#.
+ 2-Windows Application 
+ 3-Web Application - Target
+ 4-Web API - Target
+ 5-Mobile Application
+ 6-Game Application,etc.
+ 
+ using System;
+ namespace MyNamespace
+ {
+  class MyClass
+  {
+    static void Main()
+	{
+	  Console.WriteLine("Hello C#");
+	  Console.ReadLine();
+	}
+  }
+ }
+ 
+ C# Source Code-CLR-MSIL(.dll,.exe)-JIT-Native(machine) code - OS - Run
+ 
+ CLR  - Common Language Runtime
+ MSIL - Microsoft Intermediate Language
+ .dll - Dynamic Link Library. Class Library(.NET Framework,.Net Core)
+ .exe - Executable File. Console Application,etc.
+ JIT  - Just In Time
+ Compile Time - Build
+ Run Time - Execute, Run
+ CLS - Common Language Specification
+ CTS - Common Type System
+ 
+ Required Software -
+ Visual Studio 2026 - IDE
+ SQL Server - DB
+ 
+ D:\Training\C#\Divil\CSharpLearningWithDivil\CSharpLearning\bin\Debug
+ D:\Training\C#\Divil\CSharpLearningWithDivil\CSharpLearning\bin\Debug
+ ------------------------------------------------------------------------
+ Frontend - HTML,CSS,Bootstrap,Javascript,(React)
+ Backend  - C#,Web API,EF Core,LINQ
+ DB       - SQL Server
+ 
+ 
+ Phase 1:-
+ 
+ Training - 
+ Frontend - React
+ Backend  - C#,Web API,EF Core,LINQ
+ DB       - SQL Server
+ 
+ Phase 2:-
+ Proper Project 
+ 
+ Phase 3:-
+  
+ SOLID Principle -
+ Design Patterns - 
+
+ -------------------------------24th Oct -------------------------------------------------
+ Resevered Key Words in C# -
+ all the blue color small letter key words are reserved keywords in C#.
+
+ Naming Convention Rules - 
+ PascalCase - Class,Method,Property,Event,Delegate,Namespace,Interface,Enum,Struct,Constant,etc.
+ camelCase - Local Variable,Parameter,etc.
+
+ C# is a case sensitive programming language. 
+ It means that the variable name 'myVariable' and 'myvariable' are considered different variables.
+
+ What is namespace in C#?
+ Namespace is a container that holds classes, interfaces, structs, enums, and delegates.
+ It is used to organize code and prevent naming conflicts. In C#, namespaces are declared using the
+ 'namespace' keyword followed by the namespace name.
+ namespace - class,interface,struct,enum,delegate,etc.
+
+
+ What is class in C#?
+ Class is a blueprint for creating objects. It defines the field (class level variable), properties, methods, deletegate,events, destructor
+ and constructors that an object of that class will have. In C#, classes are declared using the 'class' keyword followed by the class name.
+ Class can contain fields, properties, methods, events, and other members. It can also implement interfaces and inherit from other classes.
+
+ What is Method in C#?
+ Method is a block of code that performs a specific task.
+ It is defined within a class and can be called to execute the code it contains. In C#,
+ methods are declared using the 'return type' followed by the method name and parentheses, which may contain parameters.
+
+ Var Keyword in C#:-
+ 1- The 'var' keyword is used to declare a variable with an implicit type.
+ 2- The type of the variable is inferred by the compiler based on the value
+ assigned to it.
+ 3- The 'var' keyword can only be used when the variable is initialized 
+ at the time of declaration.
+ 4- The 'var' keyword cannot be used for class-level fields,return type or method parameters.
+ 
+
+ Implicit & Explicit Type Conversion in C#: 
+ It is the process of converting a value from one data type to another. There are two types of type conversion in C#:
+ 1. Implicit Conversion: Automatically done by the compiler when converting from a lower precision type to a higher precision type.
+ 2. Explicit Conversion: Done manually by the programmer using casting when converting from a higher precision type to a lower precision type.
+ 
+
+ Const & Readonly in C#:
+ 1. Const: A constant value that cannot be changed after it is declared. It is defined using the 'const' keyword and must be initialized at the time of declaration.
+ 2. Readonly: A variable that can only be assigned a value once, either at the time of declaration or in the constructor of the class. It is defined using the 'readonly' keyword.
+
+ String VS StringBuilder in C#:
+ String is immutable, so every time you change the value of a string, a new string object is created in memory.
+ StringBuilder is mutable, so you can change the value of a StringBuilder object without creating a new object in memory.
+
+ 5*4*3*2*1=120
+
+ int [] values = { 22, 33, 66, 11, 50 };
+
+ MaxValue:
+ MinValue:
+
+ Access Specifier In C#:
+ 1-Public - It will access
+ 2-Private
+ 3-Protected
+ 4-Internal
+ 5-Protected Internal
+
+
+ I have removed Test message.
+ This is the message from git repository for your knowladge.
+  This is for conflict check Test.
+ This is for conflict check.
