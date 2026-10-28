@@ -189,8 +189,3 @@
  4-Internal
  5-Protected Internal
 
-
- I have removed Test message.
- This is the message from git repository for your knowladge.
-  This is for conflict check Test.
- This is for conflict check.
