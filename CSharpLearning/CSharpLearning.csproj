@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MethodTypes\AbstractMethod.cs" />
+    <Compile Include="MethodTypes\ExtensionMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MethodTypes\PartialTypes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
