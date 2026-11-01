@@ -46,8 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConstructorInCSharp\PrivateConstructor.cs" />
-    <Compile Include="ConstructorInCSharp\SingletonPattern.cs" />
+    <Compile Include="InterfaceInCSharp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
