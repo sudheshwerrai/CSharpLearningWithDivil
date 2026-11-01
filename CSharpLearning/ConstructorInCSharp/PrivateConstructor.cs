@@ -3,6 +3,11 @@ namespace CSharpLearning.ConstructorInCSharp
 {
     class PrivateConstructor
     {
+        //Destructor in C#
+        ~PrivateConstructor()
+        {
+
+        }
         static void Main()
         {
             var teacher = SingletonPattern.GetInstance;
