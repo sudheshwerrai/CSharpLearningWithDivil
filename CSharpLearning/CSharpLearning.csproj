@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test1.cs" />
+    <Compile Include="PropertyInCSharp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
